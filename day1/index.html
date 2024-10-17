@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 600px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 48%;
+        }
+
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <h2>Application Form</h2>
+
+    <form action="#" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+
+        <label for="programmingLanguage">Preferred Programming Language:</label>
+        <select id="programmingLanguage" name="programmingLanguage" required>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="csharp">C</option>
+        </select>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="position">Position Available:</label>
+        <select id="programmingLanguage" name="programmingLanguage" required>
+            <option value="Designer">Designer</option>
+            <option value="Developer">Developer</option>
+            <option value="Not Available">Not Available</option>
+        </select>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h3>Sample Table</h2>
+    
+    <table>
+        <tr>
+         <h3>   <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+            <th>Col 4</th>
+            <th>Col 5</th>
+            <th>Col 6</th>
+        <th> Col 7 </th> </h3>
+        </tr>
+        <tr>
+        <td> Cell 1</td>
+            <td> Cell 2</td>
+            <td> Cell 3</td>
+            <td> Cell 4</td>
+            <td> Cell 5</td>
+            <td> Cell 6</td>
+            <td> Cell 7</td>
+        </tr>
+        <tr>
+        <td> Cell 1</td>
+            <td> Cell 2</td>
+            <td> Cell 3</td>
+            <td> Cell 4</td>
+            <td> Cell 5</td>
+            <td> Cell 6</td>
+            <td> Cell 7</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
